@@ -1,0 +1,31 @@
+.it_option_set:nth-child(2n+1){background:#fff}
+.it_option_set{clear:both;display:block;border-bottom:1px solid #eee;position:relative;padding:3px 0}
+#f1_upload_process img{width:10%}
+.it_option_header{text-align:right;float:left;font-size:13px;line-height:16px;font-family:Signika,sans-serif;font-weight:600;width:20%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:10px}
+html{overflow-x:hidden;overflow-y:hidden}
+#it_header{height:80px;overflow:hidden;margin-top:-32px}
+#it_logo{float:left;margin-top:20px;height:30px}
+img{border:none}
+input[type=checkbox],input[type=color],input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=radio],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],select,textarea{border:1px solid #ddd;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.07);box-shadow:inset 0 1px 2px rgba(0,0,0,.07);background-color:#fff;color:#32373c;outline:0;-webkit-transition:50ms border-color ease-in-out;transition:50ms border-color ease-in-out}
+.it_textfield{width:90%}
+.it_upload{width:70%;margin:0;padding-top:4px}
+.wp-core-ui .button,.wp-core-ui .button-secondary{color:#555;border-color:#ccc;background:#f7f7f7;-webkit-box-shadow:0 1px 0 #ccc;box-shadow:0 1px 0 #ccc;vertical-align:top}
+.wp-core-ui .button,.wp-core-ui .button-primary,.wp-core-ui .button-secondary{display:inline-block;text-decoration:none;font-size:13px;line-height:26px;height:28px;margin:0;padding:0 10px 1px;cursor:pointer;border-width:1px;border-style:solid;-webkit-appearance:none;-webkit-border-radius:3px;border-radius:3px;white-space:nowrap;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+input,textarea{box-sizing:border-box}
+#header_links{float:right;margin-top:50px;margin-right:-40px;font-size:11px;text-shadow:1px 1px 0 #fff}
+.it_option_set{clear:both;display:block;border-bottom:1px solid #eee;position:relative;padding:21px 0}
+.it_option_header{text-align:right;float:left;font-size:13px;line-height:0;font-family:Signika,sans-serif;font-weight:600;width:20%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:10px}
+.tabmain{margin:10px}
+.tabItemContainer{float:left}
+.tabBodyContainer{margin-right:-7px;width:88%;height:1134px;float:left;background-color:#fff;border:1px solid #ccc;-webkit-border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;border-radius:0 5px 5px 0;margin-left:13px}
+.tabItemContainer>li{list-style:none;text-align:center}
+.tabItemContainer>li>a{float:left;width:100%;padding:30px 13px 30px 0;font:16px "微软雅黑",Arial,Helvetica,sans-serif;color:grey;cursor:pointer;text-decoration:none;border:1px solid transparent}
+.tabItemCurrent{background-color:#fff;border:1px solid #ccc!important;border-right:1px solid #fff!important;position:relative;-webkit-border-radius:5px 0 0 5px;-moz-border-radius:5px 0 0 5px;border-radius:5px 0 0 5px}
+.tabItemContainer>li>a:hover{color:#333}
+.tabBodyItem{position:absolute;width:677px;height:500px;display:none}
+.tabBodyItem>p{font:13px "微软雅黑",Arial,Helvetica,sans-serif;text-align:center;margin-top:30px}
+.tabBodyItem>p>a{text-decoration:none;color:#0F3}
+.tabBodyCurrent{display:block}
+header{border:0;font-family:inherit;font-size:100%;font-style:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
+.entry-header h1{position:relative;font-size:16px;font-size:1.8rem;line-height:30px;text-align:center;margin:35px -25px 20px -25px;padding:5px 20px}
+.single-content{font-size:15px;font-size:1.5rem;line-height:1.8}
