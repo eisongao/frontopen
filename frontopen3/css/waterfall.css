@@ -1,0 +1,9 @@
+#container{max-width:1180px;position:relative;overflow:hidden}
+#content .box{margin:0 15px 20px 15px;width:265px;background:#FFF;border:#d9d9d9 1px solid;padding:8px;box-shadow:0 1px 3px rgba(204,204,204,.5);-moz-box-shadow:0 1px 3px rgba(204,204,204,.5);-webkit-box-shadow:0 1px 3px rgba(204,204,204,.5);-khtml-box-shadow:0 1px 3px rgba(204,204,204,.5)}
+#content .box img{max-width:250px;border:0;width:248px;margin:0 auto}
+#content .box .logtitle{font-size:16px;font-weight:700;text-align:center;margin-bottom:5px;border-bottom:1px #d9d9d9 dashed;width:100%;padding:5px 0}
+#comtent .box .logtext{float:left;width:100%; color:#999}
+#content .box .title a:hover{color:#fff;background:#3fa7cb}
+#content .img{width:248px;background:#f5f5f5}
+#content .img p{text-align:left;line-height:20px;margin:0}
+#content .img p img{margin:0}
