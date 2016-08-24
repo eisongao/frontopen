@@ -1,0 +1,7 @@
+<?php 
+/**
+ * 页面底部信息
+ */
+if(!defined('EMLOG_ROOT')) {exit('error!');} 
+?>
+<div class="cls"></div><footer id="footer" role="contentinfo"><div id="colophon"><div id="site-info"><a href="javascript:void(0)" onclick="goRoll(0)" id="goTop">返回顶部</a><?php doAction('index_footer'); ?>&nbsp; <?php echo $icp; ?> &nbsp; ©2013-2014 <?php echo $blogname; ?> | Powered By <a href="http://www.emlog.net" title="emlog <?php echo Option::EMLOG_VERSION;?>">Emlog</a> | Theme <?php if ($banquan == "yes"): ?><?php if (blog_tool_ishome()) :?><a id="official" href="http://flyercn.com/" target="_blank" title="由flyer移植">frontopen2</a><?php else:?><span id="official">frontopen2</span><?php endif; ?><?php else: ?><span id="official">frontopen2</span><?php endif; ?> <?php echo $footer_info; ?></a><?php if ($timer == "yes"): ?> | 加载耗时 <?php timer_stop(3) ?>s<?php else: ?><?php endif; ?></div></div></footer></div><div id="float"><a id="float_gotop" class="floatbtn" href="javascript:void()" onclick="goRoll(0)" title="返回顶部"></a><?php if (isset($logid) || !empty($tws)) : ?><a class="linbak floatbtn" href="#comment-place" title="快速回复" ></a><?php else:?><div style="height:1px;"></div><?php endif; ?><a id="float_goend" class="floatbtn" href="javascript:void()" onclick="goend()" title="转到底部"></a></div><script type="text/javascript">loading('100%',<?php echo _g('speed'); ?>)</script><script>prettyPrint();</script> </body></html>
