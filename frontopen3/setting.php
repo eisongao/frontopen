@@ -540,15 +540,8 @@ plugin_setting();
 <img class="aligncenter"  src="<?php echo TEMPLATE_URL; ?>assets/images/donate.png" alt="" width="600" height="400" ></a>
 </p>
 <noscript><img class="aligncenter" src="<?php echo TEMPLATE_URL; ?>assets/images/donate.png" alt="" width="600" height="400" ></noscript>
-<form id="alipayForm" accept-charset="GBK" action="https://shenghuo.alipay.com/send/payment/fill.htm" method="post" target="_blank">
-<p style="text-align: center;"><span style="color: #ff0000; font-size: 14pt;"><strong>支付宝账户： 332819589@qq.com</strong></span></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><input height="37" name="pay" src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png" type="image" width="159"></p>
-<p><input name="optEmail" type="hidden" value="huang.qiuquan@163.com"></p>
-<p><input name="payAmount" type="hidden" value="10.00"></p>
-<p><input id="title" name="title" type="hidden" value="赞助“Flyercn.ga”网站"></p>
-<p><input name="memo" type="hidden" value="软件不错，特来支持站长！"></p>
-</form>
+<p style="text-align: center;"><span style="color: #ff0000; font-size: 14pt;"><strong>Github:<a href="https://github.com/eisongao" target="_blank">传送门</a></strong></span></p>
+<p style="text-align: center;"><span style="color: #ff0000; font-size: 14pt;"><strong>博客:<a href="http://flyercn.ga" target="_blank">传送门</a></strong></span></p>
 </div>
 </div>
 </article>
