@@ -587,7 +587,7 @@ function get_newtwLI($n=3){
   global $CACHE;
   $tw = $CACHE->readCache('newtw');
   $a=1; $li = "";
-  foreach($tw as $v){ $li .= "<li><a class=\"limit-line ellipsis\">". $v['t'] ."</a></li>"; }
+  foreach($tw as $v){ $li .= "<li><a href=\"t \" class=\"limit-line ellipsis\">". subString(strip_tags($v['t']),0,45) ."</a></li>"; }
   return $li;
 }
 ?>
