@@ -8,10 +8,12 @@ function copyUrl(url){
             prompt("非IE内核浏览器，请复制以下地址：",url);    
         }    
    } 
-   function fontSizetoB() {
-	$(".post-content").css({fontSize:"+=4px"});
-}
-function fontSizetoS() {
-	$(".post-contentt").css({fontSize:"-=2px"});
-}
-
+function changeFontSize(pucl,size) 
+{ 
+if(pucl.style) 
+pucl.style.fontSize=size; 
+for(var i=0;i<pucl.childNodes.length;i++) 
+{ 
+changeFontSize(pucl.childNodes[i],size) 
+} 
+} 
