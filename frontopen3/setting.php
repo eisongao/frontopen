@@ -4,7 +4,6 @@ require_once(EMLOG_ROOT.'/content/templates/frontopen3/config.php');
 require_once('functions.php');
 plugin_setting();
 ?>
-<?php if(isset($_GET['do'])):?><span class="actived">保存成功</span><?php endif;?>
 <?php if (ROLE == ROLE_ADMIN):?>
 <link rel='stylesheet'href='<?php echo TEMPLATE_URL; ?>assets/css/admin.css?ver=1.2' type='text/css' media='screen' />
 <script type="text/javascript" src="<?php echo TEMPLATE_URL; ?>assets/js/jquery.tools.min.js?ver=1.2"></script>
