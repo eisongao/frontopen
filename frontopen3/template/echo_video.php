@@ -30,9 +30,11 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 <script type="text/javascript" src="<?php echo TEMPLATE_URL; ?>js/ckplayer.js" charset="utf-8"></script>
 </div>
 </div>
-<h1 class="post-title page-heading" itemprop="headline"><span class="h-title"><?php echo $log_title; ?></span></h1><div class="post-meta meta ">
+<h1 class="post-title page-heading">
+<span class="h-title"><?php echo $log_title; ?></span></h1>
+<div class="post-meta meta ">
 <span class="time"><i class="fa fa-clock-o"></i> <time class="post-published updated""><?php echo gmdate('Y-n-j', $date); ?></time></span>
-<span class="views" itemprop="interactionCount"><i class="fa fa-eye"></i> <?php echo $views;?>浏览</span><a href="http://demo.betterstudio.com/better-mag/how-to-cornrow-your-own-hair/#comments" class="comments“”><i class="fa fa-comment"></i> <?php echo $comnum;?></a> <span class="post-author author"><?php blog_author($author); ?></span>
+<span class="views" ><i class="fa fa-eye"></i> <?php echo $views;?>浏览</span><a href="#comments" class="comments“”><i class="fa fa-comment"></i> <?php echo $comnum;?></a> <span class="post-author author"><?php blog_author($author); ?></span>
 </div>
 <div class="the-content post-content clearfix" propname="articleBody"><p><?php echo $log_content; ?></p>
 </div>
@@ -93,7 +95,7 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 </section>
 <div class="comments">
 <div id="comments"> 
-<?php blog_comments($comments); ?>
+<?php blog_comments($comments,$params); ?> 
 <?php blog_comments_post($logid,$ckname,$ckmail,$ckurl,$verifyCode,$allow_remark); ?>
 <?php
  include View::getView('side');

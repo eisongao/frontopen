@@ -40,13 +40,22 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 <span class="h-title"><?php echo $log_title; ?></span></h1>
 <div class="post-meta meta ">
 <span class="time">
-<span class="fontzoom"><a href="javascript:fontSizetoB();" title="加大字号">A<sup>+</sup></a><a href="javascript:fontSizetoS();" title="减小字号">A<sup>-</sup></a></span>
+<span class="fontzoom">
+<a href="#" onclick="changeFontSize(document.getElementById('front'),this.style.fontSize);return false;" 
+style="font-size: 16px;">大</a> 
+<a href="#" onclick="changeFontSize(document.getElementById('front'),this.style.fontSize);return false;" 
+style="font-size: 14px;">中</a> 
+<a href="#" onclick="changeFontSize(document.getElementById('front'),this.style.fontSize);return false;" 
+style="font-size: 12px;">小</a> 
+</span>
 </span>
 <span class="views" ><i class="fa fa-eye"></i><?php echo $views; ?> 浏览</span>
 <a class="comments" ><i class="fa fa-comment-o"></i> <?php if($comnum):?>评论(<?php echo $comnum; ?>)<?php else:?>评论：暂无<?php endif;?></a>
 </div>
 <div class="the-content post-content clearfix">
+<div id="front">
 <?php echo $log_content; ?>
+</div>
 <?php doAction('log_related', $logData); ?>
 </div>
 <br />
@@ -105,7 +114,7 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 </section>
 <div class="comments">
 <div id="comments"> 
-<?php blog_comments($comments); ?>
+<?php blog_comments($comments,$params); ?> 
 <?php blog_comments_post($logid,$ckname,$ckmail,$ckurl,$verifyCode,$allow_remark); ?>
 <?php
  include View::getView('side');
